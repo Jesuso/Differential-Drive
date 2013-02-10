@@ -1,0 +1,30 @@
+html{ margin: 0; padding: 0; }
+
+/* Footer */
+div#footer{ background: #ccc; position: fixed; left: 0; right: 0; bottom: 0; margin: 10px 20px 0 20px; padding: 3px 10px; border-radius: 10px 10px 0 0; }
+
+/* Results table */
+table#results{ background: #ccc; margin:0 auto; border:1px solid #ccc; border-radius: 10px; }
+table#results tbody tr:nth-child(odd){ background: #eee; }
+table#results tbody tr:nth-child(even){ background: #fff; }
+table#results tbody tr:hover{ background: #ccc; }
+table#results tbody td{padding: 2px 8px;}
+
+/*##########################################
+CSS CoolForms
+Author: Jesus Ortiz
+URL: http://www.jesuso.net
+##########################################*/
+
+fieldset{ background:#f0f0e6; padding:10px; margin:25px auto !important; width:600px; font:12px/17px Arial, Helvetica, sans-serif; color:#333; border:none; border-radius:25px; -webkit-border-radius:25px;	-moz-border-radius:25px; margin:auto; border:1px solid #c0c0b3; }
+fieldset.small{ width:300px; }
+fieldset legend{ background:#bfbf30; color:#fff; font:17px/21px Calibri, Arial, Helvetica, sans-serif; padding:0 10px; margin:-26px 0 0 8px; font-weight:bold; border-radius:8px; -webkit-border-radius:25px; -moz-border-radius:25px; }
+fieldset legend a{ color:#FFF; cursor:help; }
+fieldset legend a:visited{ color:#FFF; }
+fieldset dl{ float:left; margin:0; }
+fieldset dl dt{ float:left; width:130px; margin:0 10px 10px 0; color:#666; line-height:15px; font-size:11px; font-weight:bold; text-align:right; }
+fieldset dl dd{ float:left; width:150px; line-height:15px; margin:0 0 10px 0; }
+
+/* Text, Pass, Textarea */
+input[type="text"], input[type="password"], textarea{ /*width:100%;*/ border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border:1px #AAA solid; background:url(JCF/CoolForm_text_normal.png);}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus{border:1px #06C solid; background:url(JCF/CoolForm_text_hover.png);}
